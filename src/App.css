@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Styling for the h2 and h3 headings */
+h2, h3 {
+  color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Styling for the paragraph */
+p {
+  font-size: 16px;
+  color: #666;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Styling for the input field */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Styling for the button */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Additional styling for the button when hovered */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for the <b> element */
+b {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Styling for the <s> element (strikethrough) */
+s {
+  text-decoration: line-through;
+  color: #999;
+}
+
+/* Styling for the horizontal rule */
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
 }

@@ -53,7 +53,7 @@ class App extends React.Component {
     return (
       <div>
         <h2>lottery contract</h2>
-        <h3>this contract managed by {this.state.manager}</h3>
+        <h3>this contract managed by Sybrite!</h3>
         <p>
           there are currenlty {this.state.players.length} player competitng to
           win {web3.utils.fromWei(this.state.balance, "ether")} ether!
